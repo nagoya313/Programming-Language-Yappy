@@ -1,12 +1,12 @@
-import <yappyio>;
+ï»¿import <yappyio>;
 
 yappy_t main(vector<string> argc) {
-  // ’n‹…‚Å‚Ì“ú”‚ğ“¾‚é
-  yappy::console::write("’n‹…‚Å‚Ì“ú”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F ");
-  float e_days := yappy::parse<float>(yappy::console::readLine()); // ’n‹…‚Å‚Ì“ú”
-  // –Ø¯‚Å‚Ì”N”‚ğŒvZ
-  flaot j_years := e_days / (365.f * 12.f); // –Ø¯‚Å‚Ì”N”
-  // “š‚¦‚ğ•\¦
-  yappy::console::write("’n‹…‚Å‚Ì“ú”‚É‘Š“–‚·‚é–Ø¯‚Ì”N”F {0}", j_years);
+  // åœ°çƒã§ã®æ—¥æ•°ã‚’å¾—ã‚‹
+  yappy::console::write("åœ°çƒã§ã®æ—¥æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š ");
+  float e_days := yappy::parse<float>(yappy::console::readLine()); // åœ°çƒã§ã®æ—¥æ•°
+  // æœ¨æ˜Ÿã§ã®å¹´æ•°ã‚’è¨ˆç®—
+  flaot j_years := e_days / (365.f * 12.f); // æœ¨æ˜Ÿã§ã®å¹´æ•°
+  // ç­”ãˆã‚’è¡¨ç¤º
+  yappy::console::write("åœ°çƒã§ã®æ—¥æ•°ã«ç›¸å½“ã™ã‚‹æœ¨æ˜Ÿã®å¹´æ•°ï¼š {0}", j_years);
   return 0;
 }

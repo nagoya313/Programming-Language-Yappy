@@ -1,4 +1,4 @@
-import <yappyio>;
+﻿import <yappyio>;
 
 yappy_t main(vector<string> argc) {
   yappy::console::write("{0}", 5 / 2);

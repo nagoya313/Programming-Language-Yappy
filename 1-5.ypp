@@ -1,9 +1,9 @@
-import <yappyio>;
+ï»¿import <yappyio>;
 
 yappy_t main(vector<string> argc) {
-  yappy::console::write("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F@");
+  yappy::console::write("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼šã€€");
   int num := yappy::parse<int>(yappy::console::readLine());
-  yappy::console::write("•‚“®¬”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F@");
+  yappy::console::write("æµ®å‹•å°æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼šã€€");
   float f := yappy::parse<float>(yappy::console::readLine());
   yappy::console::write("{0} {1}", num, f);
   return 0;

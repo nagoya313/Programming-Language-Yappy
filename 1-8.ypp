@@ -1,8 +1,8 @@
-import <yappyio>;
+﻿import <yappyio>;
 
 yappy_t main(vector<string> argc) {
   int i := 1;
   int minus_i : = -i;
-  yappy::console::write("�ϐ�minus_i�̒l {0}", minus_i);
+  yappy::console::write("変数minus_iの値 {0}", minus_i);
   return 0;
 }
