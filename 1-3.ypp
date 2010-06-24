@@ -1,0 +1,7 @@
+import <yappyio>;
+
+yappy_t main(vector<string> argc) {
+  int num := 100;
+  yappy::console::write("’l‚Í {0}", num);
+  return 0;
+}

@@ -1,0 +1,9 @@
+import <yappyio>;
+
+yappy_t main(vector<string> argc) {
+  byte ch := 'X';
+  float f := 100.123;
+  double d := 123.009;
+  yappy::console::write("ch‚Í {0}A f‚Í {1}A d‚Í {2}", ch, f, d);
+  return 0;
+}

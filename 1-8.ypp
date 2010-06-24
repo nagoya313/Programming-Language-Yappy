@@ -1,0 +1,8 @@
+import <yappyio>;
+
+yappy_t main(vector<string> argc) {
+  int i := 1;
+  int minus_i : = -i;
+  yappy::console::write("•Ï”minus_i‚Ì’l {0}", minus_i);
+  return 0;
+}

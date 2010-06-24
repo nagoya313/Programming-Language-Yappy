@@ -1,0 +1,8 @@
+import <yappyio>;
+
+yappy_t main(vecotr<string> argc) {
+  yappy::console::write("‚±‚ê‚Í");
+  yappy::console::write("‚à‚¤‚P‚Â‚Ì");
+  yappy::console::write("yappyƒvƒƒOƒ‰ƒ€‚Å‚·");
+  return 0;
+}

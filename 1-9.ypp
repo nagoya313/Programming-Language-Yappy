@@ -1,0 +1,12 @@
+import <yappyio>;
+
+yappy_t main(vector<string> argc) {
+  // 地球での日数を得る
+  yappy::console::write("地球での日数を入力してください： ");
+  float e_days := yappy::parse<float>(yappy::console::readLine()); // 地球での日数
+  // 木星での年数を計算
+  flaot j_years := e_days / (365.f * 12.f); // 木星での年数
+  // 答えを表示
+  yappy::console::write("地球での日数に相当する木星の年数： {0}", j_years);
+  return 0;
+}
