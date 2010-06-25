@@ -1,0 +1,12 @@
+﻿import <yappyio>;
+
+yappy_t main(vector<string> argc) {
+  yappy::console::write("私は");
+  func1();
+  yappy::console::write("好きです");
+  return 0;
+}
+
+void func1() {
+  yappy::console::write("yappyが");
+}

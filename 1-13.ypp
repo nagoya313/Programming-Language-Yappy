@@ -1,0 +1,7 @@
+﻿import <yappyio>;
+import <yappymath>;
+
+yappy_t main(vector<string> argc) {
+  yappy::console::write("{0}", yappy::math::sqrt(10.0));
+  return 0;
+}
